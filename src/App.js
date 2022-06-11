@@ -10,8 +10,8 @@ import Table from './components/Table';
 const App = () => {
   const [users, setUsers] = useState(data);
   const [filterValue, setFilterValue] = useState('');
-  const [sortKey, setSortKey] = useState(null);
-  const [sortOrder, setSortOrder] = useState(null);
+  const [sortKey, setSortKey] = useState('');
+  const [sortOrder, setSortOrder] = useState('');
 
   const handleSort = (e) => {
     const key = e.target.value;
